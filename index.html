@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>April Mae | Designer Portfolio</title>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    <div class="custom-cursor"></div>
+
+    <button class="theme-toggle" id="themeToggleBtn" aria-label="Dark mode toggle">
+        <i class="fas fa-moon toggle-icon"></i>
+    </button>
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">april <span class="dot-pink">✦</span></a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#work" class="nav-link">Works</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-spotlight" id="heroSpotlight"></div>
+            
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">✦ UI/UX DESIGNER</div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Creating Things<br>
+                    That Make A<br>
+                    <span class="pink-glow">Difference.</span>
+                </h1>
+                <p class="hero-desc animate-fade-up delay-2">
+                    I design and develop digital experiences that combine creativity,
+                    functionality, and meaningful impact.
+                </p>
+                <div class="hero-actions animate-fade-up delay-3">
+                    <a href="#work" class="btn-primary">View Work <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-outline">Let's Talk <i class="fas fa-comment"></i></a>
+                </div>
+                <div class="hero-stats animate-fade-up delay-4">
+                    <div class="stat"><span class="stat-num">3rd</span> <span class="stat-label">Year</span></div>
+                    <div class="stat"><span class="stat-num">5</span> <span class="stat-label">Projects</span></div>
+                    <div class="stat"><span class="stat-num">3</span> <span class="stat-label">Certs</span></div>
+                </div>
+                <div class="design-services animate-fade-up delay-4">
+                    UI/UX · Product Design · Digital Experiences
+                </div>
+            </div>
+            <div class="hero-image animate-fade-up delay-2">
+                <div class="image-frame">
+                    <div class="profile-img-wrapper">
+                        <div class="profile-placeholder">
+                            <div class="profile-inner">
+                                <img src="images/profile.jpg" alt="April Mae" class="profile-photo">
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-grid">
+                <div class="about-credentials">
+                    <div class="credentials-card">
+                        <div class="certifications-section">
+                            <h4>— CERTIFICATIONS</h4>
+                            <div class="cert-item">
+                                <strong>NC2 Passer — Computer Systems Servicing (CSS)</strong>
+                                <p>TESDA National Certificate · Gabriel Taborin College · 2023</p>
+                            </div>
+                            <div class="cert-item">
+                                <strong>CCNA: Introduction to Networks</strong>
+                                <p>Cisco Networking Academy · Davao del Norte State College · Jun 2025</p>
+                            </div>
+                            <div class="cert-item">
+                                <strong>Ignite Philippines — Entrepreneurship</strong>
+                                <p>Wadhwani Foundation · Apr 2026 · 42 hrs coursework</p>
+                            </div>
+                        </div>
+                        <div class="education-section">
+                            <h4>Davao del Norte State College</h4>
+                            <p>Bachelor of Science in Information Technology<br>3rd Year · BSIT-3H · 2022 – Present</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-left">
+                    <div class="section-tag">✦ about me</div>
+                    <h2>Curious. Creative.<br>Always learning.</h2>
+                    <p>
+                        I’m April Mae Tangag, a 3rd-year BSIT student at Davao del Norte State College exploring UI/UX and functional digital experiences.
+                        <br> I focus on turning ideas into clean, usable interfaces through design, branding, and visual systems.
+                    </p>             
+                    <div class="personal-info">
+                        <div><span>📍</span> Panabo City, Davao Del Norte</div>
+                    </div>
+                    <div class="signature">— aprilm ✦</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <div class="section-header">
+                <span class="section-tag">✦ selected projects</span>
+                <h2>Featured work</h2>
+            </div>
+            
+            <div class="work-category">
+                <div class="category-header">
+                    <i class="fas fa-th-large"></i>
+                    <h3>All Projects</h3>
+                    <div class="scroll-hint"><i class="fas fa-arrow-right"></i> Scroll to explore</div>
+                </div>
+                <div class="scroll-container" id="allProjectsContainer">
+                    <div class="scroll-wrapper">
+                        <div class="scroll-content">
+                            <!-- Poster Project -->
+                            <div class="project-card-small">
+                                <div class="project-type-badge poster">
+                                    Poster
+                                </div>
+                                <div class="project-img-wrapper-small">
+                                    <img src="images/Hatchai-poster1.png" alt="Poster" class="project-image-small">
+                                </div>
+                                <div class="project-info-small">
+                                    <h4>HatchAI Poster</h4>
+                                    <p>A promotional poster created to showcase HatchAI's innovative solutions, target users, and product value in a visually engaging format.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Brochure Project -->
+                            <div class="project-card-small">
+                                <div class="project-type-badge print">
+                                     Brochure
+                                </div>
+                                <div class="project-img-wrapper-small">
+                                    <img src="images/brochure.png" alt="Brochure" class="project-image-small">
+                                </div>
+                                <div class="project-info-small">
+                                    <h4>HatchAI Brochure</h4>
+                                    <p>Designed a tri-fold brochure promoting HatchAI's smart incubation technology and key features.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Mobile App Project -->
+                            <div class="project-card-small">
+                                <div class="project-type-badge mobile">
+                                     Mobile App
+                                </div>
+                                <div class="project-img-wrapper-small">
+                                    <img src="images/events.png" alt="Events" class="project-image-small">
+                                </div>
+                                <div class="project-info-small">
+                                    <h4>DNSC Events</h4>
+                                    <p>A mobile event ticketing application for DNSC that simplifies ticket registration, payment tracking, and event management.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Web App / E-commerce Project -->
+                            <div class="project-card-small">
+                                <div class="project-type-badge web">
+                                     E-commerce
+                                </div>
+                                <div class="project-img-wrapper-small">
+                                    <img src="images/emsslaundry.png" alt="Laundry Management" class="project-image-small">
+                                </div>
+                                <div class="project-info-small">
+                                    <h4>Emms Laundry Management System</h4>
+                                    <p>A web-based solution that automates laundry order tracking, customer management, payment processing, and sales reporting.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Web App / Marketplace Project -->
+                            <div class="project-card-small">
+                                <div class="project-type-badge web">
+                                     Marketplace
+                                </div>
+                                <div class="project-img-wrapper-small">
+                                    <img src="images/brew&business.png" alt="Brew" class="project-image-small">
+                                </div>
+                                <div class="project-info-small">
+                                    <h4>Brew&Business</h4>
+                                    <p>A web-based marketplace for coffee, milk tea, and powdered beverage products with online ordering features.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+       <section id="skills" class="skills-section">
+    <div class="section-header">
+        <span class="section-tag">✦ what i bring</span>
+        <h2>Expertise & tools</h2>
+    </div>
+    <div class="skills-grid">
+        <!-- Design Card -->
+        <div class="skill-card">
+            <div class="skill-header">
+                <div class="skill-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Design</h3>
+            </div>
+            <div class="skill-items-row">
+                <div class="skill-item">
+                    <i class="fas fa-paintbrush"></i>
+                    <span>Graphic Design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>UI/UX Design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-print"></i>
+                    <span>Poster & Print</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Card -->
+        <div class="skill-card">
+            <div class="skill-header">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Tech</h3>
+            </div>
+            <div class="skill-items-row">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML/CSS</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-tailwind"></i>
+                    <span>Tailwind</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-php"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <span>VS Code</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-network-wired"></i>
+                    <span>Basic Networking</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>CCNA Foundations</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Soft Skills Card -->
+        <div class="skill-card">
+            <div class="skill-header">
+                <div class="skill-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Soft Skills</h3>
+            </div>
+            <div class="skill-items-row">
+                <div class="skill-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Creative Direction</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+       <section id="contact" class="contact">
+    <div class="contact-card">
+        <h2>Let's work together</h2>
+        <p>Open for collaborations, seminars, and internship opportunities.
+             <br>I’d love to hear from you.</p>
+        <a href="mailto:aprilmaetangag@gmail.com" class="btn-primary large-btn">
+            <i class="fas fa-paper-plane"></i> aprilmaetangag@gmail.com
+        </a>
+        <div class="social-links">
+            <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/april-mae-tangag-252247373/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+    <div class="footer-note">
+        <p>© 2026 April — Design with purpose.</p>
+    </div>
+</section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
